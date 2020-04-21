@@ -36,9 +36,9 @@
             // 
             // buttonLatinSinister
             // 
-            this.buttonLatinSinister.Location = new System.Drawing.Point(170, 361);
+            this.buttonLatinSinister.Location = new System.Drawing.Point(12, 361);
             this.buttonLatinSinister.Name = "buttonLatinSinister";
-            this.buttonLatinSinister.Size = new System.Drawing.Size(75, 23);
+            this.buttonLatinSinister.Size = new System.Drawing.Size(148, 23);
             this.buttonLatinSinister.TabIndex = 0;
             this.buttonLatinSinister.Text = "Sinister";
             this.buttonLatinSinister.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // buttonLatinMedium
             // 
-            this.buttonLatinMedium.Location = new System.Drawing.Point(328, 361);
+            this.buttonLatinMedium.Location = new System.Drawing.Point(190, 361);
             this.buttonLatinMedium.Name = "buttonLatinMedium";
-            this.buttonLatinMedium.Size = new System.Drawing.Size(75, 23);
+            this.buttonLatinMedium.Size = new System.Drawing.Size(148, 23);
             this.buttonLatinMedium.TabIndex = 1;
             this.buttonLatinMedium.Text = "Medium";
             this.buttonLatinMedium.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // buttonLatinDexter
             // 
-            this.buttonLatinDexter.Location = new System.Drawing.Point(482, 361);
+            this.buttonLatinDexter.Location = new System.Drawing.Point(367, 361);
             this.buttonLatinDexter.Name = "buttonLatinDexter";
-            this.buttonLatinDexter.Size = new System.Drawing.Size(75, 23);
+            this.buttonLatinDexter.Size = new System.Drawing.Size(148, 23);
             this.buttonLatinDexter.TabIndex = 2;
             this.buttonLatinDexter.Text = "Dexter";
             this.buttonLatinDexter.UseVisualStyleBackColor = true;
@@ -67,16 +67,17 @@
             // labelOutput
             // 
             this.labelOutput.AutoSize = true;
+            this.labelOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOutput.Location = new System.Drawing.Point(289, 172);
             this.labelOutput.Name = "labelOutput";
-            this.labelOutput.Size = new System.Drawing.Size(0, 13);
+            this.labelOutput.Size = new System.Drawing.Size(0, 20);
             this.labelOutput.TabIndex = 3;
             // 
             // FormLatinTranslator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 422);
+            this.ClientSize = new System.Drawing.Size(533, 422);
             this.Controls.Add(this.labelOutput);
             this.Controls.Add(this.buttonLatinDexter);
             this.Controls.Add(this.buttonLatinMedium);
