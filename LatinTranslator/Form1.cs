@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace LatinTranslator
 {
-    public partial class Form1 : Form
+    public partial class FormLatinTranslator : Form
     {
-        public Form1()
+        public FormLatinTranslator()
         {
             InitializeComponent();
+        }
+
+        private void buttonLatinSinister_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
