@@ -52,6 +52,7 @@
             this.buttonLatinMedium.TabIndex = 1;
             this.buttonLatinMedium.Text = "Medium";
             this.buttonLatinMedium.UseVisualStyleBackColor = true;
+            this.buttonLatinMedium.Click += new System.EventHandler(this.buttonLatinMedium_Click);
             // 
             // buttonLatinDexter
             // 
@@ -61,6 +62,7 @@
             this.buttonLatinDexter.TabIndex = 2;
             this.buttonLatinDexter.Text = "Dexter";
             this.buttonLatinDexter.UseVisualStyleBackColor = true;
+            this.buttonLatinDexter.Click += new System.EventHandler(this.buttonLatinDexter_Click);
             // 
             // labelOutput
             // 

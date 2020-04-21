@@ -19,7 +19,17 @@ namespace LatinTranslator
 
         private void buttonLatinSinister_Click(object sender, EventArgs e)
         {
+            labelOutput.Text = "Left";
+        }
 
+        private void buttonLatinMedium_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "Center";
+        }
+
+        private void buttonLatinDexter_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "Right";
         }
     }
 }
